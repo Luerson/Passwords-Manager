@@ -3,16 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="59698155-6895-48e3-8d2d-1709d9fd3a48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/CS50-final-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/HIDDEN_br.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/padlock.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/users.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br.py" beforeDir="false" afterPath="$PROJECT_DIR$/versão_português/HIDDEN_br.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/CS50-final-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/HIDDEN_br.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/padlock.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/HIDDEN_br_executável/users.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/create_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/drop_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/versão_br_download.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +50,29 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.HIDDEN_br (1)">
-    <configuration name="HIDDEN_br (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.HIDDEN (1)">
+    <configuration name="HIDDEN (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Passwords-Manager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/english_version/executable_HIDDEN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/english_version/executable_HIDDEN/HIDDEN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="apagar_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS50-final-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versão_português/HIDDEN_br.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versão_português/apagar_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HIDDEN_br" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="create_db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS50-final-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/english_version" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HIDDEN_br.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/english_version/create_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="create_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="criar_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS50-final-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versão_português" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versão_português/criar_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="drop_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="drop_db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS50-final-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,32 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/english_version" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drop_db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="install" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CS50-final-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/install.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/english_version/drop_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HIDDEN_br (1)" />
-        <item itemvalue="Python.create_db" />
-        <item itemvalue="Python.drop_db" />
-        <item itemvalue="Python.HIDDEN_br" />
-        <item itemvalue="Python.install" />
+        <item itemvalue="Python.HIDDEN (1)" />
+        <item itemvalue="Python.criar_db" />
+        <item itemvalue="Python.apagar_db" />
+        <item itemvalue="Python.create_db (1)" />
+        <item itemvalue="Python.drop_db (1)" />
       </list>
     </recent_temporary>
   </component>

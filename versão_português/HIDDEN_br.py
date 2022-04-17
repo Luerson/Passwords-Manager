@@ -1,5 +1,6 @@
 import random
 import sqlite3
+import webbrowser
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
@@ -67,7 +68,14 @@ def menu_options():
     """
 
     intro_label = Label(page_label, text=message, justify=LEFT)
+    visit_pages_label = Label(page_label, justify=LEFT)
+    github_button = Button(visit_pages_label, text="VISITAR GITHUB DO AUTOR", command=lambda: webbrowser.open_new("https://github.com/Luerson/Passwords-Manager"))
+    image_page_button = Button(visit_pages_label, text="Pixel perfect - Flaticon IMAGENS", command=lambda: webbrowser.open_new("https://www.flaticon.com/free-icons/password"))
+
     intro_label.pack()
+    visit_pages_label.pack()
+    github_button.grid(row=0, column=0, pady=5)
+    image_page_button.grid(row=0, column=1, pady=5)
 
 
 def register_page():
@@ -221,11 +229,11 @@ def valid_register_inputs(username, password, confirmation, email):
                                       este email tem o código de segurança para validar seu email.</p>
                                       <p>código de validação: <b>{CODE}</b></p>
                                       <p>Se você não sabe do que isso se trata, por favor ignore esta mensagem.</p>
-                                      <p>Obrigado por sua atenção, de Programa Automático Python!</p>"""
+                                      <p>Obrigado por sua atenção, de Programa Automático Hidden!</p>"""
 
             read = messagebox.showinfo("Enviando código", f"Um código de verificação está sendo enviado para {EMAIL}!"
                                                           " Isso pode demorar um pouco, por favor clique em 'ok'"
-                                                          " e aguarde!")
+                                                          " , ou feche essa janela, e aguarde!")
 
             if read:
                 if send_email(EMAIL, title, message):
@@ -392,7 +400,7 @@ def add_function():
 
 def save_data(title, password):
     if name_exists(title, "passwords") != 0:
-        messagebox.showerror("Indisponível", "Você não pode ter duas senhas com o mesmo título")
+        messagebox.showerror("Inválido", "Você não pode ter duas senhas com o mesmo título")
     elif " " in title or " " in password:
         messagebox.showerror("Inválido", "os títulos não podem ter espaço em branco")
     elif title == "" or password == "":
@@ -454,11 +462,11 @@ def change_password(username):
                                           este email tem o código de segurança para validar seu email.</p>
                                           <p>código de validação: <b>{CODE}</b></p>
                                           <p>Se você não sabe do que isso se trata, por favor ignore esta mensagem.</p>
-                                          <p>Obrigado por sua atenção, de Programa Automático Python!</p>"""
+                                          <p>Obrigado por sua atenção, de Programa Automático Hidden!</p>"""
 
     read = messagebox.showinfo("Enviando código", f"Um código de verificação está sendo enviado para {EMAIL}!"
                                                   " Isso pode demorar um pouco, por favor clique em 'ok'"
-                                                  " e aguarde!")
+                                                  " ,ou feche essa janela, e aguarde!")
 
     if read:
         if send_email(EMAIL, title, message):
@@ -537,8 +545,8 @@ def create_passwords_email(tree_view):
     <p>Olá {USERNAME}, segue a lista com as senhas salvas em sua base de dados:</p>
     <table>
         <tr>
-            <th>TITLE</th>
-            <th>PASSWORD</th>
+            <th>TÌTULO</th>
+            <th>SENHA</th>
         </tr>
     """
 
