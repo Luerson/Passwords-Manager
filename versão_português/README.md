@@ -1,4 +1,3 @@
-#HIDDEN versão em português
 Este é o meu projeto de conclusão do curso CS50 gratuito de Harward para introdução a programação.
 
 O objetivo do programa é servir para guardar diversas senhas de forma segura e que possa ser recuperada pelo usuário quando ele quiser.
