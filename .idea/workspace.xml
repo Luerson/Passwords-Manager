@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59698155-6895-48e3-8d2d-1709d9fd3a48" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CS50-final-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HIDDEN_br.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drop_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/padlock.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/CS50-final-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/HIDDEN_br.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/padlock.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versão_português/arquivos_do_executável/users.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
