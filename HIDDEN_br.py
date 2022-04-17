@@ -46,14 +46,11 @@ def menu_options():
     load_page(FIRST_ENTRY)
     FIRST_ENTRY = False
 
-    login_button = Button(Menu_Frame, text="REGISTRAR", command=register_page)
+    login_button = Button(Menu_Frame, text="CRIAR CONTA", command=register_page)
     login_button.grid(row=0, column=0)
 
-    login_button = Button(Menu_Frame, text="ENTRAR", command=login_page)
+    login_button = Button(Menu_Frame, text="FAZER LOGIN", command=login_page)
     login_button.grid(row=0, column=1)
-
-    exit_button = Button(Menu_Frame, text="SAIR", command=finish_program_page)
-    exit_button.grid(row=0, column=2)
 
     # Menu main page
     message = """
@@ -289,7 +286,7 @@ def valid_login_inputs(username, password):
             login_main_page(get_data_list())
             return
 
-    messagebox.showerror("Entrda inválida", "usuário ou senha incorreta")
+    messagebox.showerror("Entrada inválida", "usuário ou senha incorreta")
     return
 
 
@@ -298,14 +295,8 @@ def login_main_page(passwords_list):
     consult_page(passwords_list)
 
     # Login menu
-    search_menu_button = Button(Menu_Frame, text="CONSULTAR", command=lambda: consult_page(passwords_list))
-    search_menu_button.grid(row=0, column=0)
-
-    login_button = Button(Menu_Frame, text="DESLOGAR", command=logout)
-    login_button.grid(row=0, column=1)
-
-    exit_button = Button(Menu_Frame, text="SAIR", command=finish_program_page)
-    exit_button.grid(row=0, column=2)
+    login_button = Button(Menu_Frame, text="SAIR DA CONTA", command=logout)
+    login_button.grid(row=0, column=0)
 
 
 def consult_page(passwords_list):
@@ -315,8 +306,9 @@ def consult_page(passwords_list):
 
     # search row defined
     search_label = Label(page_label)
-    search_input = Entry(search_label)
-    search_button = Button(search_label, text="PESQUISAR", command=lambda: search_function(search_input.get()))
+    search_input = Entry(search_label, width=25)
+    search_input.insert(0, "Digite o título da senha")
+    search_button = Button(search_label, text="PROCURAR", command=lambda: search_function(search_input.get()))
     see_all_button = Button(search_label, text="VER TODAS", command=lambda: consult_page(get_data_list()))
 
     # search row grid
@@ -329,11 +321,13 @@ def consult_page(passwords_list):
     add_delete_label = Label(page_label)
     add_button = Button(add_delete_label, text="ADICIONAR SENHA", command=add_function)
     delete_button = Button(add_delete_label, text="DELETAR SENHA", command=lambda: delete_function(TREE_VIEW))
+    backup_button = Button(add_delete_label, text="ENVIAR SENHAS PARA EMAIL", command=lambda: create_passwords_email(TREE_VIEW))
 
     # delete add row grid
     add_delete_label.grid(row=1, column=0, sticky=W)
     add_button.grid(row=0, column=0, padx=6)
     delete_button.grid(row=0, column=1, padx=5)
+    backup_button.grid(row=0, column=2, padx=5)
 
     # data row
     data_label = Label(page_label)
@@ -414,7 +408,6 @@ def save_data(title, password):
 
 
 def delete_function(tree_view):
-    global TREE_VIEW
 
     proceed = messagebox.askyesno("Deletar?", "Tem certeza que deseja deletar essa senha?")
 
@@ -506,6 +499,11 @@ def register_new_password(new_password):
     conn.commit()
 
     login_page()
+    return
+
+
+def create_passwords_email(tree_view):
+    print(tree_view.get_children())
     return
 
 
@@ -665,10 +663,6 @@ def decrypt_function(user_id, column, table):
             data_list.append(data)
 
         return data_list
-
-
-def finish_program_page():
-    root.quit()
 
 
 menu_options()
